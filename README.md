@@ -15,7 +15,7 @@ The action takes care to create the directory, if not yet present.
           uses: actions/checkout@v2
 
         - name: Pushes test folder
-          uses: datalbry/copy_folder_to_another_repo_action@1.0.0
+          uses: neko-gg/copy_folder_to_another_repo_action@1.0.0
           env:
             API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
           with:
